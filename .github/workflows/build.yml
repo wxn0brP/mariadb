@@ -19,7 +19,7 @@ jobs:
 
     services:
       mariadb:
-        image: mariadb:11
+        image: mariadb:13
         env:
           MARIADB_ROOT_PASSWORD: admin
           MARIADB_DATABASE: valthera_test
